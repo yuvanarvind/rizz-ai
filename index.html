@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizz AI | One-Liner Conversation Starter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css" integrity="sha512-Z+34Kna6+cJXOmH62b6Kjg6UOZfT2r6cJFvU+ThO8B4av+QXm4o4vqlmW1J8E1MwBCxSxGBv7oLJg8uxB7NMTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black font-mono text-white">
+    <!-- Header -->
+    <header class="py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold-mono">Rizz AI</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+                    <li><a href="https://twitter.com/yuvanarvind">Contact Us</a></li>
+                    <!-- <li><a href="#faq">FAQ</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Splash Screen -->
+    <section class="h-screen flex flex-col justify-center items-center">
+        <h2 class="text-5xl font-bold mb-4">Introducing Rizz AI</h2>
+        <p class="text-3xl mb-8">the one-liner generator to strike conversations on dating apps</p>
+        <a href="https://rizz-ai-frontend.vercel.app/">
+            <button class="bg-red-500 hover:bg-red-600 py-2 px-4 rounded-full font-bold text-lg">Get Started Now</button>
+        </a>
+        </section>
+
+    <!-- Features -->
+    <section id="features" class="py-16">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Features</h2>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="dark:bg-neutral-900 rounded-lg shadow-lg px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">AI-Powered One-Liner Generator</h3>
+              <p>Our advanced artificial intelligence algorithm generates conversation starters tailored to your interests and preferences.</p>
+            </div>
+            <div class="dark:bg-neutral-900 rounded-lg shadow-lg px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Easy to Use</h3>
+              <p>Rizz AI is simple and intuitive. Just input a few details about yourself and our algorithm will do the rest.</p>
+            </div>
+            <div class="dark:bg-neutral-900 rounded-lg shadow-lg px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Minimalistic Design</h3>
+              <p>Our sleek and futuristic design is both visually appealing and easy to navigate.</p>
+            </div>
+            <div class="dark:bg-neutral-900 rounded-lg shadow-lg px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Compatible with All Major Dating Apps</h3>
+              <p>Rizz AI works with popular dating apps such as Tinder, Bumble, Hinge and more.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Pricing -->
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <section id="pricing" class="py-16">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Pricing</h2>
+                <stripe-pricing-table pricing-table-id="prctbl_1N4KpUSEfYGrJwVUuhnpI2rR"
+                    publishable-key="pk_live_51N4KZdSEfYGrJwVUXsr5f61PSuij46WWsKYXJcfXwNuBrBjPatnEP4sdfxp84OwO997TgrwB4oVZyxyWo0ZFkHy000HDlEPU9E">
+                </stripe-pricing-table>
+        </div>
+    </section>
+
+    <!--Footer-Copyright section-->
+  <div class="bg-neutral-200 p-6 text-center dark:bg-neutral-900">
+    <span>© 2023 Copyright:</span>
+    <a
+      class="font-semibold-mono text-neutral-600 dark:text-neutral-400"
+      href="https://rizz-ai-frontend.vercel.app/"
+      >Rizz AI
+    </a>
+  </div>
+</body>
